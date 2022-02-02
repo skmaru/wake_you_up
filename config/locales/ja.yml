@@ -1,0 +1,10 @@
+ja:
+  activerecord:
+    defaults: 
+      messages:
+        created: {#item}を追加した。よっしゃ！がんばれ！
+        not_created: {#item}を追加できませんでした。もう一度！
+    models:
+      tasks: 今日のやること
+    attributes:
+      task: やること
