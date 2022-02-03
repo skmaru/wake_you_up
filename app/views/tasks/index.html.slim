@@ -1,2 +1,7 @@
 h3= Date.today
+= form_with model: @task, url: tasks_create_path, local: true do |f|
+  = f.text_field :name
+  = f.submit '登録'
 p 今日のやること
+- @tasks.each do |task|
+  = task.name
